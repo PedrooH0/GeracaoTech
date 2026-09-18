@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  margin-bottom: 12px;
+  font-size: large;
+}
+
+img{
+  width: 350px;
+}
