@@ -8,30 +8,78 @@
 </head>
 <body>
   
-  <table border="1">
-    <tr>
-      <td>Pedro</td>
-      <td>20</td>
-    </tr>
-  </table>
-
-  <br>
+  
 
   <table border="1">
     <caption>Tabela de pessoas</caption>
+
+    <colgroup>
+      <col style="background-color: rgb(103, 108, 112);">
+    
+    </colgroup>
+
     <thead>
       <tr>
+        <th>Categoria</th>
         <th>Nome</th>
         <th>Idade</th>
+        <th>Cidade</th>
+        <th>Salário</th>
       </tr>
     </thead>
 
     <tbody>
       <tr>
-        <td>Pedro</td>
+        <th rowspan="3">Família</th>
+        <td>Pedro Henrique</td>
         <td>20</td>
+        <td>Fortaleza</td>
+        <td>R$ 3000</td>
+      </tr>
+
+      <tr>
+        <td>Maria Eduarda</td>
+        <td>19</td>
+        <td>Fortaleza</td>
+        <td>R$ 1800</td>
+      </tr>
+
+      <tr>
+        <td>Ana</td>
+        <td>12</td>
+        <td>Fortaleza</td>
+        <td>R$ 6700</td>
+      </tr>
+
+      <tr>
+        <th rowspan="3">Amigos</th>
+        <td>Davi</td>
+        <td>18</td>
+        <td>Fortaleza</td>
+        <td>R$ 38000</td>
+      </tr>
+
+      <tr>
+        <td>Gustavo</td>
+        <td>18</td>
+        <td>Fortaleza</td>
+        <td>R$ 40000</td>
+      </tr>
+
+      <tr>
+        <td>João Lucas</td>
+        <td>18</td>
+        <td>Fortaleza</td>
+        <td>R$ 4000</td>
       </tr>
     </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="4" style="font-weight: bold;">Saláro total:</td>
+        <td>R$ 93500</td>
+      </tr>
+    </tfoot>
   </table>
 
   <br>
