@@ -1,13 +1,28 @@
-body{
+*{
   margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+header{
+  background-color: blanchedalmond;
+  display: flex;
+  padding: 20px;
+  
+}
+
+
 
 a{
   text-decoration: none;
 }
 
-li{
+.links{
+  padding: 30px;
+}
+
+.elementLink{
   margin-bottom: 12px;
   font-size: large;
 }
