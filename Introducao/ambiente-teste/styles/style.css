@@ -6,12 +6,78 @@
 
 
 header{
-  background-color: blanchedalmond;
-  display: flex;
+  background-color: #0066FF;
   padding: 20px;
+  display: flex;
+  justify-content: center;
   
 }
 
+body{
+  background-color: aliceblue;
+}
+
+header div h1{
+  font-size: 36px;
+}
+
+.central-subjects > h2{
+  font-size: 32px;
+  color: aliceblue;
+  margin: 15px;
+}
+
+header div{
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+}
+
+header div a{
+  color: aliceblue;
+  font-size: 18px;
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 45px;
+}
+
+.central-subjects{
+  display: flex;
+  background-color: #0066FF;
+  margin: 3%;
+  width: 80%;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tri-subjects{
+  display: flex;
+  margin: 30px;
+  gap: 250px;
+  background-color: red;
+}
+
+
+.subjects{
+  background-color: aquamarine;
+  padding: 35px;
+  margin: 10px;
+  border-radius: 10px;
+  
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
 
 
 a{
@@ -22,7 +88,7 @@ a{
   padding: 30px;
 }
 
-.elementLink{
+.element-link{
   margin-bottom: 12px;
   font-size: large;
 }
